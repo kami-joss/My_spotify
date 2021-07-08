@@ -1,0 +1,66 @@
+.albums, .artistes {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 150px;
+}
+
+.artistes img {
+    max-height: 200px;
+    max-width: 100%;
+}
+
+.album {
+    margin: 10px;
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+    /* display: flex; */
+}
+
+.album:hover {
+    background-color: rgba(255, 255, 255, 80%)
+}
+
+.album img {
+    margin : 10px;
+    max-height: 100%;
+}
+
+.artiste {
+    /* display: flex; */
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    background-color: gainsboro;
+    border: solid 1px black;
+    padding: 10px ;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+.tracks {
+    max-width: 900px;
+    margin: auto;
+}
+
+.body {
+    background-color: aqua;
+}
+
+.album_pres {
+    background-color: ghostwhite;
+    display: flex;
+}
+
+.album_pres img {
+    max-height: 100%;
+    margin: 10px;
+}
+
